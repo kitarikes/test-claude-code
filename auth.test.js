@@ -1,5 +1,7 @@
 // ユーザー認証機能のテスト
-// TDD - Red Phase: 実装前にテストを作成
+// TDD - Green Phase: 実装後のテスト実行
+
+const AuthService = require('./auth');
 
 describe('ユーザー認証機能', () => {
     
