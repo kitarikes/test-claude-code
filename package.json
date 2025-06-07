@@ -1,0 +1,19 @@
+{
+  "name": "test-issue2",
+  "version": "1.0.0",
+  "description": "Git Work Tree テストプロジェクト",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "dependencies": {
+    "mysql2": "^3.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
