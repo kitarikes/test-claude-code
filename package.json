@@ -1,7 +1,7 @@
 {
-  "name": "test-auth",
+  "name": "test-issue2",
   "version": "1.0.0",
-  "description": "ユーザー認証機能のテストプロジェクト",
+  "description": "Git Work Tree テストプロジェクト - 認証・DB機能統合",
   "main": "main.js",
   "scripts": {
     "test": "jest",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.0.0"
   },
   "jest": {
     "testEnvironment": "node",
